@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <script src="https://kit.fontawesome.com/7666dfc9fb.js" crossorigin="anonymous"></script>
+    <title>Modal project</title>
+</head>
+<body class="bg-[url('./background.jpg')] flex items-center justify-center h-screen">
+    <article class="w-7/12 h-80 bg-white rounded-2xl">
+        <h1 class="text-amber-600 text-5xl text-center pt-8">Modal Project</h1>
+        <button id="open" class="bg-blue-600 text-white p-4 rounded-2xl mx-auto block mt-16 hover:bg-blue-400">Open Modal</button>
+    </article>
+    <div id="overlay" class="hidden flex items-center justify-center absolute top-0 left-0 bg-blue-300 w-screen h-screen bg-opacity-50">
+        <article class="relative w-7/12 h-80 bg-white rounded-2xl">
+            <h1 class="text-amber-600 text-5xl text-center pt-8">Thanks for sharing your email.</h1>
+            <span id="close" class="fa-solid fa-x bg-blue-600 text-white p-4 rounded-2xl ml-52 mt-16 hover:bg-red-600"></span>
+           
+        </article>
+    </div>
+   
+    <script src="app.js"></script>
+    
+</body>
+</html>
